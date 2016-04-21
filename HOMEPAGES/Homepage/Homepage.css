@@ -1,0 +1,17 @@
+body {
+ background-image: url("https://media.giphy.com/media/QsHnc6PWPIRVe/giphy.gif");
+}
+
+h1 {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 250%;
+}
+
+h2 {
+    color:white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 250%;
+}
