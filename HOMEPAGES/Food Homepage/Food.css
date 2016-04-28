@@ -1,12 +1,16 @@
 body{
- background-image: url("https://washu.spoonuniversity.com/wp-content/uploads/sites/12/2015/02/patrick-hunger-e1423421580974.gif");   
+ background-image: url("http://s6.favim.com/orig/141226/background-cartoon-food-gif-Favim.com-2336846.gif");   
+}
+.imageContainer {
+    position:relative;
 }
 
-.imageContainer:hover{
-    position: relative;
-}
+.imageContainer:hover .imageText{
+    display: block;
+    }
 
 .imageText{
+    display: none;
     font-size: 50px;
     color: white;
     position: absolute;
@@ -15,4 +19,12 @@ body{
     width: 400px;
     height:400px;
     border: 3px;
+}
+
+h1 {
+    color:Black;
+}
+
+h2{
+    color:Black;
 }
