@@ -1,25 +1,40 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="Battery.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="Battery.js"></script>
 </head>
 
 <body>
     <div id="header">
-        <h1 align=center>Battery Park</h1>
+        <h1 align=center> BATTERY PARK </h1>
     </div>
     <div class="container">
         <TABLE BORDER="0" align="center">
             <div class="row">
                 <tr>
                     <td>
-                        <div class="col-xs-12 col-md-6 col-lg-3">
-                            <img class="img responsive" src="battery-park.jpg" width="400" height="400"></div>
-                        <div class="col-xs-6 col-md-4 col-lg-1">
-                            <div class="imageText"> Pricing </div>
+                        <div class="col-xs-12 col-md-6 col-lg-3 imageContainer">
+                            <img class="img responsive" src="Battery2.jpg" width="400" height="400">
+                        </div>
+                        <div id="Battery1" cols="54" rows="23">
+                            Rating= <span id="rating"></span>/5
+                            <br> Location= <span id="location"></span>
+                            <br>
+                            <a href="https://www.nycgovparks.org/parks/battery-park/map" class="button">Want to see a map of the park? <br> Click here!</a>
                         </div>
                     </td>
+                    <td>
+                        <div id="Battery2" cols="54" rows="23">
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-3 imageContainer">
+                            <img class="img responsive" src="Battery3.jpg" width="400" height="400">
+                        </div>
+                    </td>
+                </tr>
             </div>
-
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,25 @@
+body{
+ background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwi3wqyti9fMAhWIFj4KHWxeDsoQjRwIBw&url=http%3A%2F%2Fgiphy.com%2Fsearch%2Fcentral-park&bvm=bv.122129774,d.cWw&psig=AFQjCNFbQTwDu3_cJH4P7RFZb922UcKJTA&ust=1463230178841671");   
+}
+
+
+h1 {
+    color:White;
+}
+
+h2{
+    color:White;
+}
+
+.container{
+    color:White;
+}
+#BlackTap1 {
+    color: Black;
+    background-color: White;
+}
+
+#BlackTap2 {
+    color: Black;
+    background-color: White;
+}
